@@ -1,0 +1,114 @@
+/*
+  Theme Name: JoeGilbert.me 2016.07
+  Author: Joe Gilbert
+  Author URI: JoeGilbert.me/
+  Description: This is the July 2016 theme for the JoeGilbert.me.
+  Version: 1.0
+*/
+
+/**
+  * Table of Contents
+  *
+  * 01. - Necessary Standard Imports
+  * 02. - Reset
+  * 03. - Typography
+  * 04. - Structure
+  * 05. - Themes
+  * 06. - Utility Classes
+  * 07. - Media Queries
+  *
+  */
+
+/* 01 - Necessary Standard Imports */
+@import 'partials/variables';
+@import 'partials/mixins';
+
+
+/* 02 - Reset */
+@import 'partials/reset';
+
+
+/* 03 - Typography */
+body,
+button,
+input,
+select,
+textarea {
+  color: $body-copy-black;
+  font-family: $primary-font-family;
+  font-size: 10px;
+  font-size: 1rem;
+  font-weight: $primary-font-weight;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+a, a:focus, a:hover, a:visited {text-decoration: none;}
+a, a:visited {color: $body-link-black;}
+a:focus, a:hover {color: $body-link-hover;}
+
+h1, h2 {
+  color: $body-copy-black;
+  line-height: 1.5;}
+
+h1 {
+  font-size: 2.2em;
+  font-weight: $bold-font-weight;
+}
+
+h2 {
+  font-size: 1.6em;
+  font-weight: $primary-font-weight;
+}
+
+p, ol, ul {
+  font-size: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+b,
+strong {font-weight: $bold-font-weight;}
+
+em {font-style: italic;}
+
+
+/* 04 - Structure */
+.business-card {
+  border: 1px solid $body-copy-gray;
+  bottom: 20%;
+  left: 15%;
+  max-width: 450px;
+  min-height: 240px;
+  padding: 5em;
+  position: absolute;
+  text-align: left;
+  width: 95%;
+
+  .contact-info{font-size: 1.3em; margin-bottom: 0;}
+  .title{margin-bottom: 1.4em;}
+} /* END .business-card */
+
+
+/* 05 - Themes */
+.night-theme {
+  background: #414A50;
+  h1, h2, p, li, a {color: #FFF;}
+
+  .business-card {border-color: #FFF;}
+} /* END .night-theme */
+
+
+/* 06 - Utility Classes */
+.clear-both {clear: both;}
+
+.clear-fix:before,
+.clear-fix:after {content: ""; display: table;}
+.clear-fix:after{clear: both;}
+.clear-fix{zoom: 1;} /* For IE 6/7 (trigger hasLayout) */
+
+.center-copy {text-align: center;}
+.no-wrap {white-space: nowrap;}
+
+
+/* 07 - Media Queries */
+@import 'partials/media-queries';
