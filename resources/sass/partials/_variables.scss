@@ -1,11 +1,14 @@
 /* Fonts */
 $primary-font-family: Helvetica, Arial, sans-serif;
-$primary-font-weight: 100;
-$bold-font-weight: 400;
+$primary-font-weight: 300;
+$bold-font-weight: 500;
 
 /* Colors */
 $body-copy-black: #000;
 $body-copy-gray: #CCC;
+
+$body-emphasis-color: #1A80D3;
+$body-emphasis-color-hover: #3399FF;
 
 $body-link-hover: #3BAEA0;
 $body-link-black: $body-copy-black;

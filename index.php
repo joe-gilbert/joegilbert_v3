@@ -5,7 +5,7 @@
 
 	<title>Joe Gilbert</title>
 
-	<meta name="description" content="Joe Gilbert's Online Presence. See his latest work, skillset, and get to know him.">
+	<meta name="description" content="Joe Gilbert's Online Presence. See his latest work, skillset, and all other pertinent information.">
 	<meta name="keywords" content="Joe Gilbert,Portfolio,Resume,Mechanicsville,Virginia,Richmond">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,6 +14,8 @@
 
 	<!--[if lt IE 9]>
 		<script src="resources/js/html5shiv.min.js"></script>
+		<script src="resources/js/respond.min.js"></script>
+		<script src="resources/js/placeholders.jquery.min.js"></script>
 	<![endif]-->
 </head>
 
@@ -21,6 +23,8 @@
 	include 'resources/includes/functions.php'; ?>
 
 <body>
+
+
 
 	<?php  /* Imports all scripts */
 		include 'resources/includes/scripts.php'; ?>

@@ -1,0 +1,217 @@
+/**********************************************
+   [ Typography ]
+/**********************************************/
+body,
+button,
+input,
+select,
+textarea {
+  color: $body-copy-black;
+  font-family: $primary-font-family;
+  font-size: 1em;
+  font-weight: $primary-font-weight;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+a, a:focus, a:hover, a:visited {border-bottom:1px dashed $body-link-black; text-decoration: none;}
+a, a:visited {color: $body-link-black;}
+a:focus, a:hover {border-bottom:1px solid $body-link-black; color: $body-link-hover;}
+
+h1, h2, h3, h4 {color: $body-copy-black; line-height: 1.5;}
+
+h2, h3, h4 {font-weight: $primary-font-weight;}
+
+h1 {font-size: 2.2em; font-weight: $bold-font-weight;}
+
+h2 {font-size: 1.6em;}
+
+h3 {font-size: 1.2em;}
+
+h4 {font-size: 1em;}
+
+p, li {
+  font-size: 1em;
+  margin-bottom: 1.5em;
+
+  &:last-child{margin-bottom:0;}
+}
+
+ul, ol{margin-bottom:1.5em;}
+
+b,
+strong {font-weight: $bold-font-weight;}
+
+em {font-style: italic;}
+
+
+
+/**********************************************
+   [ Buttons ]
+/**********************************************/
+.flat-btn {
+  background: $body-emphasis-color;
+  color: #FFF;
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+
+  &:focus,
+  &:active,
+  &:hover,
+  &:visited {color:#FFF;}
+
+  &:hover{
+    background: $body-emphasis-color-hover;
+    @include box-shadow( 0, 1px, 2px, rgba(0, 0, 0, 0.4) );
+  }
+
+  &.skeleton{
+    background: #FFF;
+    border:1px solid $body-emphasis-color;
+    color: $body-emphasis-color;
+  }
+
+} /* END .flat-btn */
+
+
+
+/**********************************************
+   [ Forms ]
+/**********************************************/
+form {
+  .error {color: #E54C4C;}
+  .error-title {margin-bottom: 1em;}
+}
+
+input,
+select,
+textarea,
+label {
+  background-color: #FFF;
+  border-radius: 0;
+  font-size: 1.6em;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin: 0;
+  max-width: 100%;
+  vertical-align: baseline;
+}
+
+input,
+textarea {
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)); /* Removing the inner shadow on iOS inputs */
+  border: 1px solid #C1C1C1;
+  color: #262626;
+}
+
+input:focus,
+textarea:focus {
+  background-color: #FFF;
+  border: 1px solid $body-emphasis-color;
+  color: #262626;
+}
+
+input:focus,
+select:focus {
+  outline: 2px solid #C1C1C1;
+  outline: 2px solid rgba(51, 51, 51, 0.3);
+}
+
+button[disabled],
+input[disabled],
+select[disabled],
+textarea[disabled] {
+  cursor: default;
+  opacity: .5;
+}
+
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  background-color: $body-emphasis-color;
+  border: 1px solid $body-emphasis-color;
+  color: #FFF;
+  cursor: pointer;
+  font-size:1.8em;
+  font-weight:$primary-font-weight;
+  padding: 0.74em 1.2em;
+}
+
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus {
+  background-color: $body-emphasis-color-hover;
+  border-color: $body-emphasis-color-hover;
+  outline: 0;
+}
+
+input[type="search"] {-webkit-appearance: textfield;}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {-webkit-appearance: none;}
+
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea {
+  padding: 0.74em;
+  width: 100%;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+textarea:focus {outline: 0;}
+
+input[type="checkbox"],
+input[type="radio"] {padding: 0;}
+
+
+::-webkit-input-placeholder {color:#868686; color:rgba(86,86,86,0.7);} /* WebKit, Blink, Edge */
+:-moz-placeholder {color:#868686; color:rgba(86,86,86,0.7); opacity:1;} /* Mozilla Firefox 4 to 18 */
+::-moz-placeholder {color:#868686; color:rgba(86,86,86,0.7); opacity:1;} /* Mozilla Firefox 19+ */
+:-ms-input-placeholder {color:#868686; color:rgba(86,86,86,0.7);} /* Internet Explorer 10-11 */
+
+
+
+/**********************************************
+   [ Structure ]
+/**********************************************/
+.inner-container{
+  margin:0 auto;
+  max-width:1280px;
+}
+
+
+
+/**********************************************
+   [ Utilities ]
+/**********************************************/
+.clear-both {clear: both;}
+
+.clear-fix:before,
+.clear-fix:after {content: ""; display: table;}
+.clear-fix:after{clear: both;}
+.clear-fix{zoom: 1;} /* For IE 6/7 (trigger hasLayout) */
+
+.center-copy {text-align: center;}
+.no-wrap {white-space: nowrap;}
