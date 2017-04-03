@@ -31,11 +31,112 @@
 
 
 /* 04 - Page Specific Styles */
+.portfolio-lp{
+
+  aside{
+    p{
+      font-size: 1.2em;
+      font-style: italic;
+    }
+  }
+
+  footer{
+    .copyright{font-size: 1.2em;}
+  } /* END footer */
+
+  header{
+    margin-bottom: 5em;
+    padding-top: 3em;
+
+    @media only screen and (min-width: 800px) {
+      padding-top: 7em;
+    }
+
+    h2{margin-bottom: 0.4em;}
+
+    .profile{
+      display: none;
+
+      p{font-size: 2em;}
+
+      @media only screen and (min-width: 800px) {
+        max-width: 800px;
+      }
+
+    }
+
+  } /* END header */
+
+  section{
+    border-left: 2px solid $background-gray;
+    margin-bottom: 5em;
+    padding-left: 25px;
+
+    .date-range{color: $body-emphasis-color;}
+
+    .section-title{
+      background: $background;
+      font-weight: $bold-font-weight;
+      margin-left: -30px;
+      padding-bottom: 0.5em;
+    }
+  }
+
+  .education{
+    .education-concentration{margin-bottom:0;}
+    .education-institute{font-weight: $bold-font-weight;}
+  } /* END .education */
+
+  .experience{
+    .date-range{margin-bottom: 0.8em;}
+
+    .position-business-title{
+      margin-bottom: 0.5em;
+    }
+
+    .position-job-title{font-weight: $bold-font-weight;}
+
+    .position-responsibilities{
+      margin-bottom: 4em;
+
+      &:last-child{margin-bottom: 0;}
+    }
+  } /* END .experience */
+
+  .skills{
+    .skill-experience-bar{
+      background: $background-gray;
+      height: 20px;
+      line-height: 20px;
+      font-size: 1.2em;
+      margin-bottom: 1.2em;
+      text-align: right;
+
+      .skill-label{display: none;}
+
+      .skill-bar-percent{
+        background: $body-emphasis-color;
+        height: 20px;
+        width: 0;
+      }
+    }
+
+    .skill-title{margin-bottom: 0.3em;}
+
+    @media only screen and (min-width: 800px) {
+      max-width: 800px;
+    }
+  } /* END .skills */
+
+  .interest{
+
+  } /* END .interest */
+
+} /* END .portfolio-lp */
 
 
 
 
 
-
-/* 05 - Media Queries */
-@import 'partials/media-queries';
+/* 05 - Media Queries
+@import 'partials/media-queries'; */

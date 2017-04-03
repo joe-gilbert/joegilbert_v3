@@ -14,30 +14,35 @@ textarea {
   -webkit-font-smoothing: antialiased;
 }
 
-a, a:focus, a:hover, a:visited {border-bottom:1px dashed $body-link-black; text-decoration: none;}
-a, a:visited {color: $body-link-black;}
-a:focus, a:hover {border-bottom:1px solid $body-link-black; color: $body-link-hover;}
+a, a:focus, a:hover, a:visited {border-bottom:1px dashed $body-link-color; text-decoration: none;}
+a, a:visited {color: $body-link-color;}
+a:focus, a:hover {border-bottom:1px solid $body-link-hover-color; color: $body-link-hover-color; cursor: pointer;}
 
-h1, h2, h3, h4 {color: $body-copy-black; line-height: 1.5;}
+h1, h2, h3, h4 {color: $body-copy-black; line-height: 1;}
 
 h2, h3, h4 {font-weight: $primary-font-weight;}
 
-h1 {font-size: 2.2em; font-weight: $bold-font-weight;}
+h1 {font-family:$header-font-family; font-size: 7em; font-weight: $header-font-weight;}
 
-h2 {font-size: 1.6em;}
+h2 {font-size: 3.5em;}
 
-h3 {font-size: 1.2em;}
+h3 {font-size: 2em;}
 
-h4 {font-size: 1em;}
+h4 {font-size: 1.7em;}
 
 p, li {
-  font-size: 1em;
-  margin-bottom: 1.5em;
+  font-size: 1.7em;
 
-  &:last-child{margin-bottom:0;}
+  &:last-child{margin-bottom: 0;}
 }
 
-ul, ol{margin-bottom:1.5em;}
+li{margin-bottom: 0.4em;}
+
+p{margin-bottom: 1.5em;}
+
+ul, ol,{margin-bottom: 1.5em; padding-left: 2em;}
+
+ul{list-style-type: disc;}
 
 b,
 strong {font-weight: $bold-font-weight;}
@@ -50,7 +55,7 @@ em {font-style: italic;}
    [ Buttons ]
 /**********************************************/
 .flat-btn {
-  background: $body-emphasis-color;
+  background: $body-link-color;
   color: #FFF;
   display: inline-block;
   padding: 0.5em 1em;
@@ -62,7 +67,7 @@ em {font-style: italic;}
   &:visited {color:#FFF;}
 
   &:hover{
-    background: $body-emphasis-color-hover;
+    background: $body-link-hover-color;
     @include box-shadow( 0, 1px, 2px, rgba(0, 0, 0, 0.4) );
   }
 
@@ -130,8 +135,8 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
-  background-color: $body-emphasis-color;
-  border: 1px solid $body-emphasis-color;
+  background-color: $body-link-color;
+  border: 1px solid $body-link-color;
   color: #FFF;
   cursor: pointer;
   font-size:1.8em;
@@ -146,8 +151,8 @@ button:focus,
 input[type="button"]:focus,
 input[type="reset"]:focus,
 input[type="submit"]:focus {
-  background-color: $body-emphasis-color-hover;
-  border-color: $body-emphasis-color-hover;
+  background-color: $body-link-hover-color;
+  border-color: $body-link-hover-color;
   outline: 0;
 }
 
@@ -198,7 +203,8 @@ input[type="radio"] {padding: 0;}
 /**********************************************/
 .inner-container{
   margin:0 auto;
-  max-width:1280px;
+  max-width:850px;
+  padding:20px;
 }
 
 

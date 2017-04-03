@@ -1,15 +1,21 @@
 /* Fonts */
-$primary-font-family: Helvetica, Arial, sans-serif;
+$primary-font-family: 'Roboto', Helvetica, Arial, sans-serif;
 $primary-font-weight: 300;
+
+$header-font-family: 'Roboto', Helvetica, Arial, sans-serif;
+$header-font-weight: 900;
+
 $bold-font-weight: 500;
 
+
 /* Colors */
-$body-copy-black: #000;
-$body-copy-gray: #CCC;
+$background: #F6F7F9;
+$background-gray: #D3D3D3;
+
+$body-copy-black: #34313f;
+$body-copy-gray: #3A3A3A;
 
 $body-emphasis-color: #1A80D3;
-$body-emphasis-color-hover: #3399FF;
 
-$body-link-hover: #3BAEA0;
-$body-link-black: $body-copy-black;
-$body-link-gray: $body-copy-gray;
+$body-link-color: $body-emphasis-color;
+$body-link-hover-color: #3399FF;
