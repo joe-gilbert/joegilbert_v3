@@ -55,9 +55,8 @@
     h2{margin-bottom: 0.4em;}
 
     .profile{
-      display: none;
 
-      p{font-size: 2em;}
+      p{display: none;}
 
       @media only screen and (min-width: 800px) {
         max-width: 800px;
@@ -83,6 +82,7 @@
   }
 
   .education{
+    .education-concentration, .education-institute{line-height:1.4;}
     .education-concentration{margin-bottom:0;}
     .education-institute{font-weight: $bold-font-weight;}
   } /* END .education */
@@ -112,12 +112,19 @@
       margin-bottom: 1.2em;
       text-align: right;
 
-      .skill-label{display: none;}
 
       .skill-bar-percent{
         background: $body-emphasis-color;
         height: 20px;
         width: 0;
+        transition: width 4s ease-in-out;
+
+        &.eighty{width: 80%;}
+        &.fifty{width: 50%;}
+        &.ninety{width: 90%;}
+        &.seventy{width: 70%;}
+
+        // &[data-emergence="hidden"]{width: 0;}
       }
     }
 

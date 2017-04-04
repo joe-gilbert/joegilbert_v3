@@ -3,9 +3,9 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>Joe Gilbert's Online Presence</title>
+	<title>Joe Gilbert | Get to know me!</title>
 
-	<meta name="description" content="Joe Gilbert's Online Presence. See his latest work, skillset, and all other pertinent information.">
+	<meta name="description" content="Joe Gilbert's Portfolio. See his latest work, skillset, and all other pertinent information.">
 	<meta name="keywords" content="Joe Gilbert, Portfolio, Resume, Mechanicsville, Virginia, Richmond">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -41,7 +41,7 @@
 
 		</header>
 
-		<main role="main">
+		<main>
 
 			<section class="experience">
 
@@ -96,39 +96,39 @@
 				<h2 class="section-title">Skills</h2>
 
 				<h4 class="skill-title">HTML / CSS / SASS</h4>
-				<div class="skill-experience-bar"><div class="skill-bar-percent" data-experience-percent="90%"><span class="skill-label">Rockstar</span></div></div>
+				<div class="skill-experience-bar"><div class="skill-bar-percent ninety"></div></div>
 
 				<h4 class="skill-title">jQuery</h4>
-				<div class="skill-experience-bar"><div class="skill-bar-percent" data-experience-percent="70%"><span class="skill-label">Rockstar</span></div></div>
+				<div class="skill-experience-bar"><div class="skill-bar-percent seventy"></div></div>
 
 				<h4 class="skill-title">PHP</h4>
-				<div class="skill-experience-bar"><div class="skill-bar-percent" data-experience-percent="50%"><span class="skill-label">Rockstar</span></div></div>
+				<div class="skill-experience-bar"><div class="skill-bar-percent fifty"></div></div>
 
 				<h4 class="skill-title">Ecommerce</h4>
-				<div class="skill-experience-bar"><div class="skill-bar-percent" data-experience-percent="80%"><span class="skill-label">Rockstar</span></div></div>
+				<div class="skill-experience-bar"><div class="skill-bar-percent eighty"></div></div>
 
 				<h4 class="skill-title">WordPress</h4>
-				<div class="skill-experience-bar"><div class="skill-bar-percent" data-experience-percent="70%"><span class="skill-label">Rockstar</span></div></div>
+				<div class="skill-experience-bar"><div class="skill-bar-percent seventy"></div></div>
 
 				<h4 class="skill-title">Project Management</h4>
-				<div class="skill-experience-bar"><div class="skill-bar-percent" data-experience-percent="80%"><span class="skill-label">Rockstar</span></div></div>
+				<div class="skill-experience-bar"><div class="skill-bar-percent eighty"></div></div>
 
 				<h4 class="skill-title">Team Leadership</h4>
-				<div class="skill-experience-bar"><div class="skill-bar-percent" data-experience-percent="80%"><span class="skill-label">Rockstar</span></div></div>
+				<div class="skill-experience-bar"><div class="skill-bar-percent eighty"></div></div>
 
 				<h4 class="skill-title">Google Analytics</h4>
-				<div class="skill-experience-bar"><div class="skill-bar-percent" data-experience-percent="80%"><span class="skill-label">Rockstar</span></div></div>
+				<div class="skill-experience-bar"><div class="skill-bar-percent eighty"></div></div>
 
 				<h4 class="skill-title">Email Marketing</h4>
-				<div class="skill-experience-bar"><div class="skill-bar-percent" data-experience-percent="70%"><span class="skill-label">Rockstar</span></div></div>
+				<div class="skill-experience-bar"><div class="skill-bar-percent seventy"></div></div>
 
 				<h4 class="skill-title">Adobe Photoshop</h4>
-				<div class="skill-experience-bar"><div class="skill-bar-percent" data-experience-percent="50%"><span class="skill-label">Rockstar</span></div></div>
+				<div class="skill-experience-bar"><div class="skill-bar-percent fifty"></div></div>
 
 				<h4 class="skill-title">Adobe Illustrator</h4>
-				<div class="skill-experience-bar"><div class="skill-bar-percent" data-experience-percent="50%"><span class="skill-label">Rockstar</span></div></div>
+				<div class="skill-experience-bar"><div class="skill-bar-percent fifty"></div></div>
 
-				<aside class="footnote"><p>* not an exhaustive list, just a quick top-level indicator of experience.</p></aside>
+				<aside class="footnote"><p>* not an exhaustive list, just a quick top-level indicator of experience</p></aside>
 
 			</section> <? /* END .skills */ ?>
 

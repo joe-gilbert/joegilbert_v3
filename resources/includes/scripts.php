@@ -5,19 +5,20 @@
 	/* jQuery functions */
 	$(document).ready(function(){
 
-		/* Skill Experience Bar Animation */
+		/* Learn More CTA Visiblity Functionality */
 		$('.learn-more-execute').on('click', function(e){
 
 			e.preventDefault();
 
 			var linkClicked = $(this),
 					idToReveal = linkClicked.attr("href"),
+					idToRevealsChildren =  $('#' + idToReveal).children(),
 					hrefText = linkClicked.text();
 
 			/* Fade In Section */
-			$('#' + idToReveal).toggle('200');
+			idToRevealsChildren.fadeToggle(500);
 
-			/* Change CTA to after click */
+			/* Change CTA after click */
 			switch(hrefText){
 				case '+ Less Info':
 					linkClicked.text("+ More Info");
