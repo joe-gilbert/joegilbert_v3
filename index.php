@@ -27,15 +27,29 @@
 
 	<div class="inner-container portfolio-lp">
 
+		<nav class="header-nav">
+			<p class="contact-cta"><a href="#points-of-contact" class="flat-btn skeleton toggle-navi">Contact</a></p>
+
+			<div class="points-of-contact" id="points-of-contact">
+				<h2 class="title">Contact Info</h2>
+
+				<p class="contact-point">Call: <a href="tel:18046153609">(804) 615-3609</a></p>
+				<p class="contact-point group-separator">Email: <a href="mailto:JoeGilbert85@gmail.com">JoeGilbert85@gmail.com</a></p>
+
+				<p class="contact-point"><a href="https://www.instagram.com/dantelegend/" target="_blank">Instagram</a></p>
+				<p class="contact-point"><a href="https://www.linkedin.com/in/joe-gilbert-6667341a" target="_blank">LinkedIn</a></p>
+			</div>
+		</nav>
+
 		<header>
 
 			<h1>Joe Gilbert</h1>
 			<h2>Web Developer &amp; Team Leader</h2>
 
-			<p class="learn-more-cta"><a class="learn-more-execute" href="profile">+ More Info</a></p>
+			<p class="learn-more-cta"><a class="learn-more-execute" href="#profile">+ More Info</a></p>
 
 			<div class="profile" id="profile">
-				<p>I'm a web developer with eight years of real-world experience in a fast-paced small-team environment. Throughout my career, I've focused on: ecommerce (strategy, development, and analysis), email marketing, and WordPress implementations. For almost three years, I've also been leading a design team's efforts in: site design, product design, and marketing.</p>
+				<p>I'm a web developer and team leader with eight years of real-world experience in a fast-paced small-team environment. Throughout my career, I've focused on: ecommerce (strategy, development, and analysis), email marketing, and WordPress implementations. For almost three years, I've also been leading a design team's efforts in: site design, product design, and marketing.</p>
 				<p>My strong attention to detail, analysis, and focus make me a valuable addition to any team and scenario.</p>
 			</div>
 
@@ -101,7 +115,7 @@
 				<h4 class="skill-title">jQuery</h4>
 				<div class="skill-experience-bar"><div class="skill-bar-percent seventy"></div></div>
 
-				<h4 class="skill-title">PHP</h4>
+				<h4 class="skill-title">LAMP</h4>
 				<div class="skill-experience-bar"><div class="skill-bar-percent fifty"></div></div>
 
 				<h4 class="skill-title">Ecommerce</h4>

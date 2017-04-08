@@ -5,6 +5,39 @@
 	/* jQuery functions */
 	$(document).ready(function(){
 
+		/* Navigation Functionality */
+		$('.toggle-navi').on('click', function(e){
+
+			/* Prevent the default anchor jump */
+			e.preventDefault();
+
+			/* Grab the id of the navi to activate */
+			var linkClicked = $(this),
+					hrefText = linkClicked.text(),
+					navigationToActivate = $( $(this).attr("href") );
+
+			/* Add the active-navi class to the desired navigation */
+			navigationToActivate.toggleClass('active-navi');
+
+			/* Prevent window scrolling */
+			$('html, body').toggleClass('overlay-no-scroll');
+
+			/* Change CTA after click */
+			switch(hrefText){
+				case 'Close':
+					linkClicked.text("Contact");
+					break;
+
+				default:
+					linkClicked.text("Close");
+					break;
+			}
+
+		});
+
+
+
+
 		/* Learn More CTA Visiblity Functionality */
 		$('.learn-more-execute').on('click', function(e){
 
@@ -12,7 +45,7 @@
 
 			var linkClicked = $(this),
 					idToReveal = linkClicked.attr("href"),
-					idToRevealsChildren =  $('#' + idToReveal).children(),
+					idToRevealsChildren =  $(idToReveal).children(),
 					hrefText = linkClicked.text();
 
 			/* Fade In Section */

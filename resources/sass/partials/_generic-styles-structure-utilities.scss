@@ -72,7 +72,7 @@ em {font-style: italic;}
   }
 
   &.skeleton{
-    background: #FFF;
+    background: $background;
     border:1px solid $body-emphasis-color;
     color: $body-emphasis-color;
   }
@@ -197,6 +197,49 @@ input[type="radio"] {padding: 0;}
 :-ms-input-placeholder {color:#868686; color:rgba(86,86,86,0.7);} /* Internet Explorer 10-11 */
 
 
+/**********************************************
+   [ Header Navigation ]
+/**********************************************/
+.header-nav{
+  text-align: right;
+
+  .flat-btn, .points-of-contact{position: absolute;}
+
+  .contact-cta{
+    font-size: 1.4em;
+
+    .flat-btn{
+      right: 20px;
+      top: 20px;
+      z-index: 10;
+    }
+  }
+
+  .points-of-contact{
+    background: $background;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    opacity: 0;
+    padding: 80px 20px 20px 20px;
+    right: 0;
+    top: 0;
+    z-index: -5;
+
+    @include transition(0.2s);
+
+    &.active-navi{opacity: 1; z-index: 5;}
+
+    .contact-point{
+      margin-bottom: 0.5em;
+      &.group-separator{margin-bottom: 1.5em;}
+    }
+
+    .title{font-weight: 500; margin-bottom: 0.6em;}
+  } /* .points-of-contact */
+}
+
+
 
 /**********************************************
    [ Structure ]
@@ -221,3 +264,5 @@ input[type="radio"] {padding: 0;}
 
 .center-copy {text-align: center;}
 .no-wrap {white-space: nowrap;}
+
+.overlay-no-scroll{overflow: hidden;}

@@ -2,7 +2,7 @@
   Theme Name: JoeGilbert.me 2017.04
   Author: Joe Gilbert
   Author URI: JoeGilbert.me
-  Description: This is the April 2017 theme for the JoeGilbert.me.
+  Description: This is the April 2017 theme for JoeGilbert.me.
   Version: 1.0
 */
 
@@ -32,6 +32,7 @@
 
 /* 04 - Page Specific Styles */
 .portfolio-lp{
+  position: relative;
 
   aside{
     p{
@@ -63,7 +64,6 @@
       }
 
     }
-
   } /* END header */
 
   section{
@@ -134,10 +134,6 @@
       max-width: 800px;
     }
   } /* END .skills */
-
-  .interest{
-
-  } /* END .interest */
 
 } /* END .portfolio-lp */
 
