@@ -1,3 +1,3 @@
 # Joe Gilbert's Online Portfolio & Resume
 
-Hire me!
+[JoeGilbert.me](http://joegilbert.me/ "Hire Me!")
