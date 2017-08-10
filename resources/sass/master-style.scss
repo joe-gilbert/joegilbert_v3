@@ -3,7 +3,7 @@
   Author: Joe Gilbert
   Author URI: JoeGilbert.me
   Description: This is the April 2017 theme for JoeGilbert.me.
-  Version: 1.0
+  Version: 1.3
 */
 
 /**
@@ -109,7 +109,7 @@
       height: 20px;
       line-height: 20px;
       font-size: 1.2em;
-      margin-bottom: 1.2em;
+      margin-bottom: 1.5em;
       text-align: right;
 
 
@@ -119,10 +119,13 @@
         width: 0;
         transition: width 4s ease-in-out;
 
-        &.eighty{width: 80%;}
+        &.thirty{width: 30%;}
+        &.forty{width: 40%;}
         &.fifty{width: 50%;}
-        &.ninety{width: 90%;}
+        &.sixty{width: 60%;}
         &.seventy{width: 70%;}
+        &.eighty{width: 80%;}
+        &.ninety{width: 90%;}
 
         // &[data-emergence="hidden"]{width: 0;}
       }

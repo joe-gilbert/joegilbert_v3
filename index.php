@@ -36,8 +36,9 @@
 				<p class="contact-point">Call: <a href="tel:18046153609">(804) 615-3609</a></p>
 				<p class="contact-point group-separator">Email: <a href="mailto:JoeGilbert85@gmail.com">JoeGilbert85@gmail.com</a></p>
 
-				<p class="contact-point"><a href="https://www.instagram.com/dantelegend/" target="_blank">Instagram</a></p>
 				<p class="contact-point"><a href="https://www.linkedin.com/in/joe-gilbert-6667341a" target="_blank">LinkedIn</a></p>
+				<p class="contact-point"><a href="https://github.com/joe-gilbert" target="_blank">GitHub</a></p>
+				<p class="contact-point"><a href="https://www.instagram.com/dantelegend/" target="_blank">Instagram</a></p>
 			</div>
 		</nav>
 
@@ -49,7 +50,7 @@
 			<p class="learn-more-cta"><a class="learn-more-execute" href="#profile">+ More Info</a></p>
 
 			<div class="profile" id="profile">
-				<p>I'm a web developer and team leader with eight years of real-world experience in a fast-paced small-team environment. Throughout my career, I've focused on: ecommerce (strategy, development, and analysis), email marketing, and WordPress implementations. For almost three years, I've also been leading a design team's efforts in: site design, product design, and marketing.</p>
+				<p>I'm a web developer and team leader with eight years of real-world experience in a fast-paced environment. Throughout my career, I've focused on: ecommerce (strategy, development, and analysis), WordPress implementations, and email marketing. For almost three years, I've also been leading a design team's efforts in: site design, product design, and marketing.</p>
 				<p>My strong attention to detail, analysis, and focus make me a valuable addition to any team and scenario.</p>
 			</div>
 
@@ -64,7 +65,7 @@
 				<h3 class="position-job-title">Web Development &amp; Design Manager</h3>
 				<p class="position-business-title">InspireYourPeople.com</p>
 
-				<p class="position-held-date-range date-range">July 2014 &ndash; Present</p>
+				<p class="position-held-date-range date-range">July 2014 &ndash; May 2017</p>
 
 				<ul class="position-responsibilities">
 					<li>Manage the development and design team's projects, priorities, and direction</li>
@@ -112,22 +113,22 @@
 				<h4 class="skill-title">HTML / CSS / SASS</h4>
 				<div class="skill-experience-bar"><div class="skill-bar-percent ninety"></div></div>
 
-				<h4 class="skill-title">jQuery</h4>
-				<div class="skill-experience-bar"><div class="skill-bar-percent seventy"></div></div>
-
-				<h4 class="skill-title">LAMP</h4>
+				<h4 class="skill-title">jQuery / JavaScript / TypeScript</h4>
 				<div class="skill-experience-bar"><div class="skill-bar-percent fifty"></div></div>
 
-				<h4 class="skill-title">Ecommerce</h4>
-				<div class="skill-experience-bar"><div class="skill-bar-percent eighty"></div></div>
+				<h4 class="skill-title">PHP</h4>
+				<div class="skill-experience-bar"><div class="skill-bar-percent sixty"></div></div>
 
 				<h4 class="skill-title">WordPress</h4>
 				<div class="skill-experience-bar"><div class="skill-bar-percent seventy"></div></div>
 
-				<h4 class="skill-title">Project Management</h4>
-				<div class="skill-experience-bar"><div class="skill-bar-percent eighty"></div></div>
+				<h4 class="skill-title">Angular</h4>
+				<div class="skill-experience-bar"><div class="skill-bar-percent fifty"></div></div>
 
-				<h4 class="skill-title">Team Leadership</h4>
+				<h4 class="skill-title">Bootstrap</h4>
+				<div class="skill-experience-bar"><div class="skill-bar-percent forty"></div></div>
+
+				<h4 class="skill-title">Ecommerce</h4>
 				<div class="skill-experience-bar"><div class="skill-bar-percent eighty"></div></div>
 
 				<h4 class="skill-title">Google Analytics</h4>
@@ -156,7 +157,7 @@
 					<li>All things technology and Apple</li>
 					<li>Music: playing, listening, admiring</li>
 					<li>Outdoors: kayaking and fishing</li>
-					<li>My beautiful wife and 10-month-old</li>
+					<li>My beautiful wife and 1-year-old</li>
 				</ul>
 
 			</section> <? /* END .interest */ ?>

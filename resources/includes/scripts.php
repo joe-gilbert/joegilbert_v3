@@ -14,7 +14,7 @@
 			/* Grab the id of the navi to activate */
 			var linkClicked = $(this),
 					hrefText = linkClicked.text(),
-					navigationToActivate = $( $(this).attr("href") );
+					navigationToActivate = $( linkClicked.attr("href") );
 
 			/* Add the active-navi class to the desired navigation */
 			navigationToActivate.toggleClass('active-navi');
